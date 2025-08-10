@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/armeabi-v7a/cmake_install.cmake",
+		"/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/armeabi-v7a/3rdparty/utfcpp/cmake_install.cmake",
+		"/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/armeabi-v7a/taglib/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

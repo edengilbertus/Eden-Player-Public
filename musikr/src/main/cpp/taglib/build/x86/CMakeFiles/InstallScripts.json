@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86/cmake_install.cmake",
+		"/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86/3rdparty/utfcpp/cmake_install.cmake",
+		"/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86/taglib/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

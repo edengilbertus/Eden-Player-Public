@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/edengilbert/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/.cxx/Debug/z30m1p56/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/edengilbert/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/.cxx/Debug/z30m1p56/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "tagJNI::@6890427a1f51a3e7e1df": {
+      "artifactName": "tagJNI",
+      "abi": "x86",
+      "output": "/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/build/intermediates/cxx/Debug/z30m1p56/obj/x86/libtagJNI.so",
+      "runtimeFiles": []
+    }
+  }
+}

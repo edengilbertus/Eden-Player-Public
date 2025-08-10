@@ -1,0 +1,50 @@
+# Gradle
+.gradle
+local.properties
+build/
+release/
+
+# Studio
+.idea/
+.DS_Store/
+captures/
+
+# Other
+.externalNativeBuild
+*.iml
+.cxx
+.kotlin
+.aider*
+.env
+
+# Native/C++/NDK build outputs
+media/libraries/decoder_ffmpeg/src/main/jni/ffmpeg/android-libs/
+media/libraries/decoder_ffmpeg/src/main/jni/ffmpeg/build/
+media/libraries/decoder_ffmpeg/src/main/jni/ffmpeg/bin/
+media/libraries/decoder_ffmpeg/src/main/jni/ffmpeg/obj/
+musikr/src/main/cpp/taglib/build/
+musikr/src/main/cpp/taglib/bin/
+musikr/src/main/cpp/taglib/obj/
+musikr/src/main/cpp/taglib/3rdparty/
+
+# Prune heavy vendored/test assets and docs from VCS
+# FFmpeg upstream extras (not needed to build)
+media/libraries/decoder_ffmpeg/src/main/jni/ffmpeg/tests/
+media/libraries/decoder_ffmpeg/src/main/jni/ffmpeg/doc/
+media/libraries/decoder_ffmpeg/src/main/jni/ffmpeg/tools/
+media/libraries/decoder_ffmpeg/src/main/jni/ffmpeg/fftools/
+
+# Media3/ExoPlayer demos and test-only assets
+media/demos/
+media/testapps/
+media/libraries/test_data/
+media/libraries/test_session_common/
+
+# TagLib prebuilt packages and sample extras
+musikr/src/main/cpp/taglib/pkg/
+musikr/src/main/cpp/taglib/tests/
+musikr/src/main/cpp/taglib/examples/
+musikr/src/main/cpp/taglib/doc/
+
+# Misc local artifacts
+musikr/.Rhistory

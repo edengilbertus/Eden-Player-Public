@@ -1,0 +1,876 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The target system is: Android - 21 - x86_64
+      The host system is: Darwin - 21.6.0 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld64.lld: error: library not found for -lSystem
+      clang: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is Clang, found in:
+        /Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/4.0.2/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ 
+      Build flags: -fPIC
+      Id flags:  
+      
+      The output was:
+      1
+      ld64.lld: error: library not found for -lc++
+      ld64.lld: error: library not found for -lSystem
+      clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ 
+      Build flags: -fPIC
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is Clang, found in:
+        /Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/4.0.2/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-FWmMlz"
+      binary: "/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-FWmMlz"
+    cmakeVariables:
+      CMAKE_ANDROID_STL_TYPE: "c++_static"
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_C_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_C_COMPILER_TARGET: "x86_64-none-linux-android21"
+      CMAKE_C_FLAGS: "-DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -fexceptions"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-FWmMlz'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9f7b5/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_9f7b5.dir/build.make CMakeFiles/cmTC_9f7b5.dir/build
+        Building C object CMakeFiles/cmTC_9f7b5.dir/CMakeCCompilerABI.c.o
+        /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -fexceptions  -O2 -g -DNDEBUG   -v -MD -MT CMakeFiles/cmTC_9f7b5.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_9f7b5.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_9f7b5.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c
+        Android (12470979, +pgo, -bolt, +lto, -mlgo, based on r522817c) clang version 18.0.3 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)
+        Target: x86_64-none-linux-android21
+        Thread model: posix
+        InstalledDir: /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin
+         (in-process)
+         "/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang" -cc1 -triple x86_64-none-linux-android21 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=none -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -target-feature +sse4.2 -target-feature +popcnt -target-feature +cx16 -tune-cpu generic -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-FWmMlz -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-FWmMlz -resource-dir /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18 -dependency-file CMakeFiles/cmTC_9f7b5.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_9f7b5.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -D NDEBUG -internal-isystem /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/include -internal-isystem /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/local/include -internal-externc-isystem /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/x86_64-linux-android -internal-externc-isystem /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/include -internal-externc-isystem /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include -O2 -Wformat -ferror-limit 19 -femulated-tls -stack-protector 2 -fgnuc-version=4.2.1 -fexceptions -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_9f7b5.dir/CMakeCCompilerABI.c.o -x c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 18.0.3 based upon LLVM 18.0.3 default target x86_64-apple-darwin21.6.0
+        ignoring nonexistent directory "/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/local/include"
+        ignoring nonexistent directory "/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/include
+         /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/x86_64-linux-android
+         /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include
+        End of search list.
+        Linking C executable cmTC_9f7b5
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f7b5.dir/link.txt --verbose=1
+        Android (12470979, +pgo, -bolt, +lto, -mlgo, based on r522817c) clang version 18.0.3 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)
+        Target: x86_64-none-linux-android21
+        Thread model: posix
+        InstalledDir: /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin
+         "/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld.lld" -z now -z relro --hash-style=both --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /system/bin/linker64 -o cmTC_9f7b5 /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o -L/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/lib/linux/x86_64 -L/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib/x86_64-linux-android/21 -L/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib/x86_64-linux-android -L/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --gc-sections --no-undefined --gc-sections CMakeFiles/cmTC_9f7b5.dir/CMakeCCompilerABI.c.o -latomic -lm /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl -lc /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o
+        /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -fexceptions  -O2 -g -DNDEBUG -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections -v CMakeFiles/cmTC_9f7b5.dir/CMakeCCompilerABI.c.o -o cmTC_9f7b5   -latomic -lm
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:191 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/include]
+          add: [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/x86_64-linux-android]
+          add: [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include]
+        end of search list found
+        collapse include dir [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/include] ==> [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/include]
+        collapse include dir [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/x86_64-linux-android] ==> [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/x86_64-linux-android]
+        collapse include dir [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include] ==> [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include]
+        implicit include dirs: [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/include;/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/x86_64-linux-android;/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-FWmMlz']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9f7b5/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_9f7b5.dir/build.make CMakeFiles/cmTC_9f7b5.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_9f7b5.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -fexceptions  -O2 -g -DNDEBUG   -v -MD -MT CMakeFiles/cmTC_9f7b5.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_9f7b5.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_9f7b5.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Android (12470979  +pgo  -bolt  +lto  -mlgo  based on r522817c) clang version 18.0.3 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)]
+        ignore line: [Target: x86_64-none-linux-android21]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin]
+        ignore line: [ (in-process)]
+        ignore line: [ "/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang" -cc1 -triple x86_64-none-linux-android21 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=none -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -target-feature +sse4.2 -target-feature +popcnt -target-feature +cx16 -tune-cpu generic -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-FWmMlz -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-FWmMlz -resource-dir /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18 -dependency-file CMakeFiles/cmTC_9f7b5.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_9f7b5.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -D NDEBUG -internal-isystem /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/include -internal-isystem /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/local/include -internal-externc-isystem /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/x86_64-linux-android -internal-externc-isystem /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/include -internal-externc-isystem /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include -O2 -Wformat -ferror-limit 19 -femulated-tls -stack-protector 2 -fgnuc-version=4.2.1 -fexceptions -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_9f7b5.dir/CMakeCCompilerABI.c.o -x c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 18.0.3 based upon LLVM 18.0.3 default target x86_64-apple-darwin21.6.0]
+        ignore line: [ignoring nonexistent directory "/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/include]
+        ignore line: [ /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/x86_64-linux-android]
+        ignore line: [ /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_9f7b5]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f7b5.dir/link.txt --verbose=1]
+        ignore line: [Android (12470979  +pgo  -bolt  +lto  -mlgo  based on r522817c) clang version 18.0.3 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)]
+        ignore line: [Target: x86_64-none-linux-android21]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin]
+        link line: [ "/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld.lld" -z now -z relro --hash-style=both --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /system/bin/linker64 -o cmTC_9f7b5 /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o -L/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/lib/linux/x86_64 -L/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib/x86_64-linux-android/21 -L/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib/x86_64-linux-android -L/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --gc-sections --no-undefined --gc-sections CMakeFiles/cmTC_9f7b5.dir/CMakeCCompilerABI.c.o -latomic -lm /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl -lc /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o]
+          arg [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld.lld] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [--hash-style=both] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/system/bin/linker64] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_9f7b5] ==> ignore
+          arg [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o] ==> obj [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o]
+          arg [-L/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/lib/linux/x86_64] ==> dir [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/lib/linux/x86_64]
+          arg [-L/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib/x86_64-linux-android/21] ==> dir [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib/x86_64-linux-android/21]
+          arg [-L/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib/x86_64-linux-android] ==> dir [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib/x86_64-linux-android]
+          arg [-L/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib] ==> dir [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib]
+          arg [--build-id=sha1] ==> ignore
+          arg [--no-rosegment] ==> ignore
+          arg [--no-undefined-version] ==> ignore
+          arg [--fatal-warnings] ==> ignore
+          arg [--gc-sections] ==> ignore
+          arg [--no-undefined] ==> ignore
+          arg [--gc-sections] ==> ignore
+          arg [CMakeFiles/cmTC_9f7b5.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-latomic] ==> lib [atomic]
+          arg [-lm] ==> lib [m]
+          arg [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/lib/linux/libclang_rt.builtins-x86_64-android.a] ==> lib [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/lib/linux/libclang_rt.builtins-x86_64-android.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-ldl] ==> lib [dl]
+          arg [-lc] ==> lib [c]
+          arg [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/lib/linux/libclang_rt.builtins-x86_64-android.a] ==> lib [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/lib/linux/libclang_rt.builtins-x86_64-android.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-ldl] ==> lib [dl]
+          arg [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o] ==> obj [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o]
+        linker tool for 'C': /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld.lld
+        remove lib [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/lib/linux/libclang_rt.builtins-x86_64-android.a]
+        remove lib [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/lib/linux/libclang_rt.builtins-x86_64-android.a]
+        collapse obj [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o] ==> [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o]
+        collapse obj [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o] ==> [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o]
+        collapse library dir [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/lib/linux/x86_64] ==> [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/lib/linux/x86_64]
+        collapse library dir [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib/x86_64-linux-android/21] ==> [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21]
+        collapse library dir [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib/x86_64-linux-android] ==> [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android]
+        collapse library dir [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib] ==> [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib]
+        implicit libs: [atomic;m;-l:libunwind.a;dl;c;-l:libunwind.a;dl]
+        implicit objs: [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o;/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o]
+        implicit dirs: [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/lib/linux/x86_64;/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21;/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android;/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld.lld" "-v"
+      LLD 18.0.3 (compatible with GNU linkers)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-XIszRq"
+      binary: "/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-XIszRq"
+    cmakeVariables:
+      CMAKE_ANDROID_STL_TYPE: "c++_static"
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_CXX_COMPILER_TARGET: "x86_64-none-linux-android21"
+      CMAKE_CXX_FLAGS: "-fPIC"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_C_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_C_COMPILER_TARGET: "x86_64-none-linux-android21"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-XIszRq'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_39310/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_39310.dir/build.make CMakeFiles/cmTC_39310.dir/build
+        Building CXX object CMakeFiles/cmTC_39310.dir/CMakeCXXCompilerABI.cpp.o
+        /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android21   -fPIC  -O2 -g -DNDEBUG   -v -MD -MT CMakeFiles/cmTC_39310.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_39310.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_39310.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Android (12470979, +pgo, -bolt, +lto, -mlgo, based on r522817c) clang version 18.0.3 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)
+        Target: x86_64-none-linux-android21
+        Thread model: posix
+        InstalledDir: /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin
+         (in-process)
+         "/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang-18" -cc1 -triple x86_64-none-linux-android21 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -fhalf-no-semantic-interposition -mframe-pointer=none -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -target-feature +sse4.2 -target-feature +popcnt -target-feature +cx16 -tune-cpu generic -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-XIszRq -v -fcoverage-compilation-dir=/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-XIszRq -resource-dir /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18 -dependency-file CMakeFiles/cmTC_39310.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_39310.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D NDEBUG -internal-isystem /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/c++/v1 -internal-isystem /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/include -internal-isystem /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/local/include -internal-externc-isystem /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/x86_64-linux-android -internal-externc-isystem /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/include -internal-externc-isystem /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include -O2 -fdeprecated-macro -ferror-limit 19 -femulated-tls -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_39310.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 18.0.3 based upon LLVM 18.0.3 default target x86_64-apple-darwin21.6.0
+        ignoring nonexistent directory "/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/local/include"
+        ignoring nonexistent directory "/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/c++/v1
+         /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/include
+         /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/x86_64-linux-android
+         /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include
+        End of search list.
+        Linking CXX executable cmTC_39310
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39310.dir/link.txt --verbose=1
+        Android (12470979, +pgo, -bolt, +lto, -mlgo, based on r522817c) clang version 18.0.3 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)
+        Target: x86_64-none-linux-android21
+        Thread model: posix
+        InstalledDir: /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin
+         "/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld.lld" -z now -z relro --hash-style=both --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /system/bin/linker64 -o cmTC_39310 /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o -L/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/lib/linux/x86_64 -L/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib/x86_64-linux-android/21 -L/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib/x86_64-linux-android -L/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --gc-sections --no-undefined --gc-sections CMakeFiles/cmTC_39310.dir/CMakeCXXCompilerABI.cpp.o -latomic -lm -Bstatic -lc++ -Bdynamic -lm /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl -lc /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o
+        /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android21 -fPIC  -O2 -g -DNDEBUG -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections -v CMakeFiles/cmTC_39310.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_39310   -static-libstdc++ -latomic -lm
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:191 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/c++/v1]
+          add: [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/include]
+          add: [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/x86_64-linux-android]
+          add: [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include]
+        end of search list found
+        collapse include dir [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/c++/v1] ==> [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1]
+        collapse include dir [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/include] ==> [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/include]
+        collapse include dir [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/x86_64-linux-android] ==> [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/x86_64-linux-android]
+        collapse include dir [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include] ==> [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include]
+        implicit include dirs: [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1;/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/include;/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/x86_64-linux-android;/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-XIszRq']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_39310/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_39310.dir/build.make CMakeFiles/cmTC_39310.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_39310.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android21   -fPIC  -O2 -g -DNDEBUG   -v -MD -MT CMakeFiles/cmTC_39310.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_39310.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_39310.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Android (12470979  +pgo  -bolt  +lto  -mlgo  based on r522817c) clang version 18.0.3 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)]
+        ignore line: [Target: x86_64-none-linux-android21]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin]
+        ignore line: [ (in-process)]
+        ignore line: [ "/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang-18" -cc1 -triple x86_64-none-linux-android21 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -fhalf-no-semantic-interposition -mframe-pointer=none -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -target-feature +sse4.2 -target-feature +popcnt -target-feature +cx16 -tune-cpu generic -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-XIszRq -v -fcoverage-compilation-dir=/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-XIszRq -resource-dir /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18 -dependency-file CMakeFiles/cmTC_39310.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_39310.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D NDEBUG -internal-isystem /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/c++/v1 -internal-isystem /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/include -internal-isystem /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/local/include -internal-externc-isystem /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/x86_64-linux-android -internal-externc-isystem /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/include -internal-externc-isystem /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include -O2 -fdeprecated-macro -ferror-limit 19 -femulated-tls -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_39310.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 18.0.3 based upon LLVM 18.0.3 default target x86_64-apple-darwin21.6.0]
+        ignore line: [ignoring nonexistent directory "/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/c++/v1]
+        ignore line: [ /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/include]
+        ignore line: [ /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/x86_64-linux-android]
+        ignore line: [ /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_39310]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39310.dir/link.txt --verbose=1]
+        ignore line: [Android (12470979  +pgo  -bolt  +lto  -mlgo  based on r522817c) clang version 18.0.3 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)]
+        ignore line: [Target: x86_64-none-linux-android21]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin]
+        link line: [ "/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld.lld" -z now -z relro --hash-style=both --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /system/bin/linker64 -o cmTC_39310 /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o -L/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/lib/linux/x86_64 -L/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib/x86_64-linux-android/21 -L/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib/x86_64-linux-android -L/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --gc-sections --no-undefined --gc-sections CMakeFiles/cmTC_39310.dir/CMakeCXXCompilerABI.cpp.o -latomic -lm -Bstatic -lc++ -Bdynamic -lm /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl -lc /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o]
+          arg [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld.lld] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [--hash-style=both] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/system/bin/linker64] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_39310] ==> ignore
+          arg [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o] ==> obj [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o]
+          arg [-L/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/lib/linux/x86_64] ==> dir [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/lib/linux/x86_64]
+          arg [-L/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib/x86_64-linux-android/21] ==> dir [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib/x86_64-linux-android/21]
+          arg [-L/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib/x86_64-linux-android] ==> dir [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib/x86_64-linux-android]
+          arg [-L/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib] ==> dir [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib]
+          arg [--build-id=sha1] ==> ignore
+          arg [--no-rosegment] ==> ignore
+          arg [--no-undefined-version] ==> ignore
+          arg [--fatal-warnings] ==> ignore
+          arg [--gc-sections] ==> ignore
+          arg [--no-undefined] ==> ignore
+          arg [--gc-sections] ==> ignore
+          arg [CMakeFiles/cmTC_39310.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-latomic] ==> lib [atomic]
+          arg [-lm] ==> lib [m]
+          arg [-Bstatic] ==> search static
+          arg [-lc++] ==> lib [c++]
+          arg [-Bdynamic] ==> search dynamic
+          arg [-lm] ==> lib [m]
+          arg [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/lib/linux/libclang_rt.builtins-x86_64-android.a] ==> lib [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/lib/linux/libclang_rt.builtins-x86_64-android.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-ldl] ==> lib [dl]
+          arg [-lc] ==> lib [c]
+          arg [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/lib/linux/libclang_rt.builtins-x86_64-android.a] ==> lib [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/lib/linux/libclang_rt.builtins-x86_64-android.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-ldl] ==> lib [dl]
+          arg [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o] ==> obj [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o]
+        linker tool for 'CXX': /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld.lld
+        remove lib [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/lib/linux/libclang_rt.builtins-x86_64-android.a]
+        remove lib [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/lib/linux/libclang_rt.builtins-x86_64-android.a]
+        collapse obj [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o] ==> [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o]
+        collapse obj [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o] ==> [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o]
+        collapse library dir [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/lib/linux/x86_64] ==> [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/lib/linux/x86_64]
+        collapse library dir [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib/x86_64-linux-android/21] ==> [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21]
+        collapse library dir [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib/x86_64-linux-android] ==> [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android]
+        collapse library dir [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/lib] ==> [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib]
+        implicit libs: [atomic;m;c++;m;-l:libunwind.a;dl;c;-l:libunwind.a;dl]
+        implicit objs: [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o;/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o]
+        implicit dirs: [/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/18/lib/linux/x86_64;/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21;/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android;/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "/Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld.lld" "-v"
+      LLD 18.0.3 (compatible with GNU linkers)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "/usr/local/share/cmake/Modules/CheckTypeSize.cmake:318 (check_include_file)"
+      - "ConfigureChecks.cmake:7 (check_type_size)"
+      - "CMakeLists.txt:98 (include)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-0WDGYN"
+      binary: "/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-0WDGYN"
+    cmakeVariables:
+      CMAKE_ANDROID_STL_TYPE: "c++_static"
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_CXX_COMPILER_TARGET: "x86_64-none-linux-android21"
+      CMAKE_C_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_C_COMPILER_TARGET: "x86_64-none-linux-android21"
+      CMAKE_C_FLAGS: "-DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -Wall"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections"
+      CMAKE_MODULE_PATH: "/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/cmake/modules"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-0WDGYN'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_dcbc8/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_dcbc8.dir/build.make CMakeFiles/cmTC_dcbc8.dir/build
+        Building C object CMakeFiles/cmTC_dcbc8.dir/CheckIncludeFile.c.o
+        /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -Wall  -O2 -g -DNDEBUG -MD -MT CMakeFiles/cmTC_dcbc8.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_dcbc8.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_dcbc8.dir/CheckIncludeFile.c.o -c /Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-0WDGYN/CheckIncludeFile.c
+        Linking C executable cmTC_dcbc8
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dcbc8.dir/link.txt --verbose=1
+        /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -Wall  -O2 -g -DNDEBUG -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections  CMakeFiles/cmTC_dcbc8.dir/CheckIncludeFile.c.o -o cmTC_dcbc8   -latomic -lm
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "/usr/local/share/cmake/Modules/CheckTypeSize.cmake:319 (check_include_file)"
+      - "ConfigureChecks.cmake:7 (check_type_size)"
+      - "CMakeLists.txt:98 (include)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-44lcoe"
+      binary: "/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-44lcoe"
+    cmakeVariables:
+      CMAKE_ANDROID_STL_TYPE: "c++_static"
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_CXX_COMPILER_TARGET: "x86_64-none-linux-android21"
+      CMAKE_C_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_C_COMPILER_TARGET: "x86_64-none-linux-android21"
+      CMAKE_C_FLAGS: "-DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -Wall"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections"
+      CMAKE_MODULE_PATH: "/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/cmake/modules"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-44lcoe'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8d0d9/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_8d0d9.dir/build.make CMakeFiles/cmTC_8d0d9.dir/build
+        Building C object CMakeFiles/cmTC_8d0d9.dir/CheckIncludeFile.c.o
+        /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -Wall  -O2 -g -DNDEBUG -MD -MT CMakeFiles/cmTC_8d0d9.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_8d0d9.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_8d0d9.dir/CheckIncludeFile.c.o -c /Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-44lcoe/CheckIncludeFile.c
+        Linking C executable cmTC_8d0d9
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d0d9.dir/link.txt --verbose=1
+        /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -Wall  -O2 -g -DNDEBUG -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections  CMakeFiles/cmTC_8d0d9.dir/CheckIncludeFile.c.o -o cmTC_8d0d9   -latomic -lm
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "/usr/local/share/cmake/Modules/CheckTypeSize.cmake:320 (check_include_file)"
+      - "ConfigureChecks.cmake:7 (check_type_size)"
+      - "CMakeLists.txt:98 (include)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-xLAhQ5"
+      binary: "/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-xLAhQ5"
+    cmakeVariables:
+      CMAKE_ANDROID_STL_TYPE: "c++_static"
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_CXX_COMPILER_TARGET: "x86_64-none-linux-android21"
+      CMAKE_C_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_C_COMPILER_TARGET: "x86_64-none-linux-android21"
+      CMAKE_C_FLAGS: "-DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -Wall"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections"
+      CMAKE_MODULE_PATH: "/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/cmake/modules"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-xLAhQ5'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_48f2c/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_48f2c.dir/build.make CMakeFiles/cmTC_48f2c.dir/build
+        Building C object CMakeFiles/cmTC_48f2c.dir/CheckIncludeFile.c.o
+        /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -Wall  -O2 -g -DNDEBUG -MD -MT CMakeFiles/cmTC_48f2c.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_48f2c.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_48f2c.dir/CheckIncludeFile.c.o -c /Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-xLAhQ5/CheckIncludeFile.c
+        Linking C executable cmTC_48f2c
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48f2c.dir/link.txt --verbose=1
+        /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -Wall  -O2 -g -DNDEBUG -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections  CMakeFiles/cmTC_48f2c.dir/CheckIncludeFile.c.o -o cmTC_48f2c   -latomic -lm
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CheckTypeSize.cmake:212 (try_compile)"
+      - "/usr/local/share/cmake/Modules/CheckTypeSize.cmake:339 (__check_type_size_impl)"
+      - "ConfigureChecks.cmake:7 (check_type_size)"
+      - "CMakeLists.txt:98 (include)"
+    checks:
+      - "Check size of short"
+    directories:
+      source: "/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-CO4Z2D"
+      binary: "/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-CO4Z2D"
+    cmakeVariables:
+      CMAKE_ANDROID_STL_TYPE: "c++_static"
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_CXX_COMPILER_TARGET: "x86_64-none-linux-android21"
+      CMAKE_C_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_C_COMPILER_TARGET: "x86_64-none-linux-android21"
+      CMAKE_C_FLAGS: "-DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -Wall"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections"
+      CMAKE_MODULE_PATH: "/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/cmake/modules"
+    buildResult:
+      variable: "HAVE_SIZEOF_SHORT"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-CO4Z2D'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7d861/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_7d861.dir/build.make CMakeFiles/cmTC_7d861.dir/build
+        Building C object CMakeFiles/cmTC_7d861.dir/SIZEOF_SHORT.c.o
+        /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -Wall  -O2 -g -DNDEBUG -MD -MT CMakeFiles/cmTC_7d861.dir/SIZEOF_SHORT.c.o -MF CMakeFiles/cmTC_7d861.dir/SIZEOF_SHORT.c.o.d -o CMakeFiles/cmTC_7d861.dir/SIZEOF_SHORT.c.o -c /Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-CO4Z2D/SIZEOF_SHORT.c
+        Linking C executable cmTC_7d861
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d861.dir/link.txt --verbose=1
+        /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -Wall  -O2 -g -DNDEBUG -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections  CMakeFiles/cmTC_7d861.dir/SIZEOF_SHORT.c.o -o cmTC_7d861   -latomic -lm
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CheckTypeSize.cmake:212 (try_compile)"
+      - "/usr/local/share/cmake/Modules/CheckTypeSize.cmake:339 (__check_type_size_impl)"
+      - "ConfigureChecks.cmake:12 (check_type_size)"
+      - "CMakeLists.txt:98 (include)"
+    checks:
+      - "Check size of int"
+    directories:
+      source: "/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-zla4GB"
+      binary: "/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-zla4GB"
+    cmakeVariables:
+      CMAKE_ANDROID_STL_TYPE: "c++_static"
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_CXX_COMPILER_TARGET: "x86_64-none-linux-android21"
+      CMAKE_C_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_C_COMPILER_TARGET: "x86_64-none-linux-android21"
+      CMAKE_C_FLAGS: "-DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -Wall"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections"
+      CMAKE_MODULE_PATH: "/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/cmake/modules"
+    buildResult:
+      variable: "HAVE_SIZEOF_INT"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-zla4GB'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_61040/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_61040.dir/build.make CMakeFiles/cmTC_61040.dir/build
+        Building C object CMakeFiles/cmTC_61040.dir/SIZEOF_INT.c.o
+        /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -Wall  -O2 -g -DNDEBUG -MD -MT CMakeFiles/cmTC_61040.dir/SIZEOF_INT.c.o -MF CMakeFiles/cmTC_61040.dir/SIZEOF_INT.c.o.d -o CMakeFiles/cmTC_61040.dir/SIZEOF_INT.c.o -c /Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-zla4GB/SIZEOF_INT.c
+        Linking C executable cmTC_61040
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61040.dir/link.txt --verbose=1
+        /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -Wall  -O2 -g -DNDEBUG -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections  CMakeFiles/cmTC_61040.dir/SIZEOF_INT.c.o -o cmTC_61040   -latomic -lm
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CheckTypeSize.cmake:212 (try_compile)"
+      - "/usr/local/share/cmake/Modules/CheckTypeSize.cmake:339 (__check_type_size_impl)"
+      - "ConfigureChecks.cmake:17 (check_type_size)"
+      - "CMakeLists.txt:98 (include)"
+    checks:
+      - "Check size of long long"
+    directories:
+      source: "/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-GUDIas"
+      binary: "/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-GUDIas"
+    cmakeVariables:
+      CMAKE_ANDROID_STL_TYPE: "c++_static"
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_CXX_COMPILER_TARGET: "x86_64-none-linux-android21"
+      CMAKE_C_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_C_COMPILER_TARGET: "x86_64-none-linux-android21"
+      CMAKE_C_FLAGS: "-DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -Wall"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections"
+      CMAKE_MODULE_PATH: "/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/cmake/modules"
+    buildResult:
+      variable: "HAVE_SIZEOF_LONGLONG"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-GUDIas'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e5eb7/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e5eb7.dir/build.make CMakeFiles/cmTC_e5eb7.dir/build
+        Building C object CMakeFiles/cmTC_e5eb7.dir/SIZEOF_LONGLONG.c.o
+        /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -Wall  -O2 -g -DNDEBUG -MD -MT CMakeFiles/cmTC_e5eb7.dir/SIZEOF_LONGLONG.c.o -MF CMakeFiles/cmTC_e5eb7.dir/SIZEOF_LONGLONG.c.o.d -o CMakeFiles/cmTC_e5eb7.dir/SIZEOF_LONGLONG.c.o -c /Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-GUDIas/SIZEOF_LONGLONG.c
+        Linking C executable cmTC_e5eb7
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5eb7.dir/link.txt --verbose=1
+        /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -Wall  -O2 -g -DNDEBUG -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections  CMakeFiles/cmTC_e5eb7.dir/SIZEOF_LONGLONG.c.o -o cmTC_e5eb7   -latomic -lm
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CheckTypeSize.cmake:212 (try_compile)"
+      - "/usr/local/share/cmake/Modules/CheckTypeSize.cmake:339 (__check_type_size_impl)"
+      - "ConfigureChecks.cmake:22 (check_type_size)"
+      - "CMakeLists.txt:98 (include)"
+    checks:
+      - "Check size of wchar_t"
+    directories:
+      source: "/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-c1wRaO"
+      binary: "/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-c1wRaO"
+    cmakeVariables:
+      CMAKE_ANDROID_STL_TYPE: "c++_static"
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_CXX_COMPILER_TARGET: "x86_64-none-linux-android21"
+      CMAKE_C_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_C_COMPILER_TARGET: "x86_64-none-linux-android21"
+      CMAKE_C_FLAGS: "-DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -Wall"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections"
+      CMAKE_MODULE_PATH: "/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/cmake/modules"
+    buildResult:
+      variable: "HAVE_SIZEOF_WCHAR_T"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-c1wRaO'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7ed67/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_7ed67.dir/build.make CMakeFiles/cmTC_7ed67.dir/build
+        Building C object CMakeFiles/cmTC_7ed67.dir/SIZEOF_WCHAR_T.c.o
+        /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -Wall  -O2 -g -DNDEBUG -MD -MT CMakeFiles/cmTC_7ed67.dir/SIZEOF_WCHAR_T.c.o -MF CMakeFiles/cmTC_7ed67.dir/SIZEOF_WCHAR_T.c.o.d -o CMakeFiles/cmTC_7ed67.dir/SIZEOF_WCHAR_T.c.o -c /Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-c1wRaO/SIZEOF_WCHAR_T.c
+        Linking C executable cmTC_7ed67
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ed67.dir/link.txt --verbose=1
+        /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -Wall  -O2 -g -DNDEBUG -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections  CMakeFiles/cmTC_7ed67.dir/SIZEOF_WCHAR_T.c.o -o cmTC_7ed67   -latomic -lm
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CheckTypeSize.cmake:212 (try_compile)"
+      - "/usr/local/share/cmake/Modules/CheckTypeSize.cmake:339 (__check_type_size_impl)"
+      - "ConfigureChecks.cmake:27 (check_type_size)"
+      - "CMakeLists.txt:98 (include)"
+    checks:
+      - "Check size of float"
+    directories:
+      source: "/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-k5w7d4"
+      binary: "/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-k5w7d4"
+    cmakeVariables:
+      CMAKE_ANDROID_STL_TYPE: "c++_static"
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_CXX_COMPILER_TARGET: "x86_64-none-linux-android21"
+      CMAKE_C_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_C_COMPILER_TARGET: "x86_64-none-linux-android21"
+      CMAKE_C_FLAGS: "-DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -Wall"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections"
+      CMAKE_MODULE_PATH: "/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/cmake/modules"
+    buildResult:
+      variable: "HAVE_SIZEOF_FLOAT"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-k5w7d4'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0cbd6/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0cbd6.dir/build.make CMakeFiles/cmTC_0cbd6.dir/build
+        Building C object CMakeFiles/cmTC_0cbd6.dir/SIZEOF_FLOAT.c.o
+        /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -Wall  -O2 -g -DNDEBUG -MD -MT CMakeFiles/cmTC_0cbd6.dir/SIZEOF_FLOAT.c.o -MF CMakeFiles/cmTC_0cbd6.dir/SIZEOF_FLOAT.c.o.d -o CMakeFiles/cmTC_0cbd6.dir/SIZEOF_FLOAT.c.o -c /Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-k5w7d4/SIZEOF_FLOAT.c
+        Linking C executable cmTC_0cbd6
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0cbd6.dir/link.txt --verbose=1
+        /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -Wall  -O2 -g -DNDEBUG -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections  CMakeFiles/cmTC_0cbd6.dir/SIZEOF_FLOAT.c.o -o cmTC_0cbd6   -latomic -lm
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CheckTypeSize.cmake:212 (try_compile)"
+      - "/usr/local/share/cmake/Modules/CheckTypeSize.cmake:339 (__check_type_size_impl)"
+      - "ConfigureChecks.cmake:32 (check_type_size)"
+      - "CMakeLists.txt:98 (include)"
+    checks:
+      - "Check size of double"
+    directories:
+      source: "/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-TSVSe9"
+      binary: "/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-TSVSe9"
+    cmakeVariables:
+      CMAKE_ANDROID_STL_TYPE: "c++_static"
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_CXX_COMPILER_TARGET: "x86_64-none-linux-android21"
+      CMAKE_C_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_C_COMPILER_TARGET: "x86_64-none-linux-android21"
+      CMAKE_C_FLAGS: "-DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -Wall"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections"
+      CMAKE_MODULE_PATH: "/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/cmake/modules"
+    buildResult:
+      variable: "HAVE_SIZEOF_DOUBLE"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-TSVSe9'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d431c/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d431c.dir/build.make CMakeFiles/cmTC_d431c.dir/build
+        Building C object CMakeFiles/cmTC_d431c.dir/SIZEOF_DOUBLE.c.o
+        /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -Wall  -O2 -g -DNDEBUG -MD -MT CMakeFiles/cmTC_d431c.dir/SIZEOF_DOUBLE.c.o -MF CMakeFiles/cmTC_d431c.dir/SIZEOF_DOUBLE.c.o.d -o CMakeFiles/cmTC_d431c.dir/SIZEOF_DOUBLE.c.o -c /Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-TSVSe9/SIZEOF_DOUBLE.c
+        Linking C executable cmTC_d431c
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d431c.dir/link.txt --verbose=1
+        /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -Wall  -O2 -g -DNDEBUG -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections  CMakeFiles/cmTC_d431c.dir/SIZEOF_DOUBLE.c.o -o cmTC_d431c   -latomic -lm
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/usr/local/share/cmake/Modules/CheckCXXSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "ConfigureChecks.cmake:39 (check_cxx_source_compiles)"
+      - "CMakeLists.txt:98 (include)"
+    checks:
+      - "Performing Test HAVE_GCC_BYTESWAP"
+    directories:
+      source: "/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-dMmbB1"
+      binary: "/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-dMmbB1"
+    cmakeVariables:
+      CMAKE_ANDROID_STL_TYPE: "c++_static"
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_CXX_COMPILER_TARGET: "x86_64-none-linux-android21"
+      CMAKE_CXX_FLAGS: "-fPIC -Wall"
+      CMAKE_C_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_C_COMPILER_TARGET: "x86_64-none-linux-android21"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections"
+      CMAKE_MODULE_PATH: "/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/cmake/modules"
+    buildResult:
+      variable: "HAVE_GCC_BYTESWAP"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-dMmbB1'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d3723/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d3723.dir/build.make CMakeFiles/cmTC_d3723.dir/build
+        Building CXX object CMakeFiles/cmTC_d3723.dir/src.cxx.o
+        /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android21 -DHAVE_GCC_BYTESWAP  -fPIC -Wall  -O2 -g -DNDEBUG -MD -MT CMakeFiles/cmTC_d3723.dir/src.cxx.o -MF CMakeFiles/cmTC_d3723.dir/src.cxx.o.d -o CMakeFiles/cmTC_d3723.dir/src.cxx.o -c /Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-dMmbB1/src.cxx
+        /Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-dMmbB1/src.cxx:3:5: warning: ignoring return value of function declared with const attribute [-Wunused-value]
+            3 |     __builtin_bswap16(0);
+              |     ^~~~~~~~~~~~~~~~~ ~
+        /Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-dMmbB1/src.cxx:4:5: warning: ignoring return value of function declared with const attribute [-Wunused-value]
+            4 |     __builtin_bswap32(0);
+              |     ^~~~~~~~~~~~~~~~~ ~
+        /Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-dMmbB1/src.cxx:5:5: warning: ignoring return value of function declared with const attribute [-Wunused-value]
+            5 |     __builtin_bswap64(0);
+              |     ^~~~~~~~~~~~~~~~~ ~
+        3 warnings generated.
+        Linking CXX executable cmTC_d3723
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3723.dir/link.txt --verbose=1
+        /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android21 -fPIC -Wall  -O2 -g -DNDEBUG -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections  CMakeFiles/cmTC_d3723.dir/src.cxx.o -o cmTC_d3723   -static-libstdc++ -latomic -lm
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/usr/local/share/cmake/Modules/CheckCXXSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "ConfigureChecks.cmake:98 (check_cxx_source_compiles)"
+      - "CMakeLists.txt:98 (include)"
+    checks:
+      - "Performing Test HAVE_ISO_STRDUP"
+    directories:
+      source: "/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-GLYzMu"
+      binary: "/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-GLYzMu"
+    cmakeVariables:
+      CMAKE_ANDROID_STL_TYPE: "c++_static"
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_CXX_COMPILER_TARGET: "x86_64-none-linux-android21"
+      CMAKE_CXX_FLAGS: "-fPIC -Wall"
+      CMAKE_C_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_C_COMPILER_TARGET: "x86_64-none-linux-android21"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections"
+      CMAKE_MODULE_PATH: "/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/cmake/modules"
+    buildResult:
+      variable: "HAVE_ISO_STRDUP"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-GLYzMu'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_624fe/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_624fe.dir/build.make CMakeFiles/cmTC_624fe.dir/build
+        Building CXX object CMakeFiles/cmTC_624fe.dir/src.cxx.o
+        /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android21 -DHAVE_ISO_STRDUP  -fPIC -Wall  -O2 -g -DNDEBUG -MD -MT CMakeFiles/cmTC_624fe.dir/src.cxx.o -MF CMakeFiles/cmTC_624fe.dir/src.cxx.o.d -o CMakeFiles/cmTC_624fe.dir/src.cxx.o -c /Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-GLYzMu/src.cxx
+        /Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-GLYzMu/src.cxx:4:5: error: use of undeclared identifier '_strdup'; did you mean 'strdup'?
+            4 |     _strdup(0);
+              |     ^~~~~~~
+              |     strdup
+        /Users/edengilbert/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/string.h:115:17: note: 'strdup' declared here
+          115 | char* _Nullable strdup(const char* _Nonnull __s);
+              |                 ^
+        /Users/edengilbert/AndroidStudioProjects/Eden-Player/musikr/src/main/cpp/taglib/build/x86_64/CMakeFiles/CMakeScratch/TryCompile-GLYzMu/src.cxx:4:13: warning: null passed to a callee that requires a non-null argument [-Wnonnull]
+            4 |     _strdup(0);
+              |             ^
+        1 warning and 1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_624fe.dir/src.cxx.o] Error 1
+        make: *** [cmTC_624fe/fast] Error 2
+        
+      exitCode: 2
+...
