@@ -26,9 +26,12 @@
 
 ## About
 
-Eden Player is a local music player with a fast, reliable UI/UX without the many useless features present in other music players. Built off of modern media playback libraries, Eden Player has superior library support and listening quality compared to other apps that use outdated android functionality. In short, **It plays music.**
+Eden Player is an open-source Android music player (fork of Auxio) built on AndroidX Media3/ExoPlayer. It features gapless playback, ReplayGain, Android Auto, and a custom music indexer.
 
-**The default branch is the development version of the repository. For a stable version, see the master branch.**
+- **License**: GPL-3.0
+- **Contributing**: PRs are welcome
+
+Sponsor the original Auxio author, OxygenCobalt (Alexander Capehart): https://paypal.me/oxycblt
 
 ## Screenshots
 
